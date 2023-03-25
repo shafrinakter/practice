@@ -16,10 +16,15 @@
     margin-bottom: 10px;
 }
 .primary-description{
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
-    font-weight: 300;
+    
 }
+section{
+    margin: 130px 200px;
+
+}
+/* header style */
 .bag-img{
     position: relative;
     background-image: url(../images/donation1.jpg);
@@ -46,9 +51,32 @@
     text-align: center;
     color: white;
 }
-/* header style */
+
 .header-containt{
     text-align: center;
     color: white;
     padding: 150px;
+}
+/* donate style */
+.donate{
+    text-align: center;
+}
+.money{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.donate-money{
+    background: #f7f5f5;
+    width: 100px;
+    height: 100px;
+    color: gray;
+}
+.donate-money h2{
+    margin-top: 30px;
+}
+.donate-money:hover{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
 }
