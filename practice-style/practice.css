@@ -18,6 +18,7 @@
 .primary-description{
     font-size: 16px;
     margin-bottom: 20px;
+    color: rgb(155, 154, 154);
     
 }
 section{
@@ -80,3 +81,97 @@ section{
     border: 2px solid #FF5959;
     color: #FF5959;
 }
+/* donate plan style */
+.donate-plan-section{
+    text-align: center;
+    
+}
+.donate-plan{
+    display: flex;
+    gap: 24px;
+    text-align: left;
+    margin-top: 50px;
+}
+.Food, img, h3{
+    margin-bottom: 15px;
+}
+.donate-plan p{
+    font-size: 13px;
+}
+.food{
+    background-color: rgba(79, 157, 166, 0.1);
+    padding: 20px;
+}
+.Shelter {
+    background: rgba(255, 89, 89, 0.1);
+    padding: 20px;
+}
+.Education{
+    background-color: #FFF4D6;
+    padding: 20px;
+}
+/* donation style */
+.your-donation{
+
+   
+}
+.donation-contain{
+    display: flex;
+    gap: 40px;
+    
+
+}
+.donation-description{
+
+    
+}
+.donation-description h2{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.donation-description p{
+    font-size: 15px;
+    color: rgb(87, 86, 86);
+    padding-bottom: 15px;
+}
+.donation-img img{
+    max-width: 500px;
+}
+.updates{
+    text-align: center;
+
+}
+form{
+    background-color: #FFF4D6;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+input{
+   border: 0;
+   background-color: #AA9F9F;
+   padding: 15px;
+   margin-left: 0;
+   position: absolute;
+   left: 36%;
+   border-radius: 5px 0 0 5px;
+   text-align: center;
+}
+/* footer style */
+footer{
+    background-color: #0B0D17;
+}
+footer h4{
+    color: #FF5959;
+    text-align: center;
+    padding: 15px;
+    Font family: Lobster;
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+    color: rgb(155, 152, 152);
+    padding: 15px;
+}
+
+
